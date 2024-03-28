@@ -12,9 +12,9 @@ class Program
             int y = Convert.ToInt32(Console.ReadLine());
             Console.Write("The result is: " + (x / y));
         }
-        catch
+        catch (Exception e)
         {
-            Console.WriteLine("Error");
+            Console.WriteLine(e.Message);
         }
     }
 }
