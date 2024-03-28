@@ -12,7 +12,11 @@ class Program
             int y = Convert.ToInt32(Console.ReadLine());
             Console.Write("The result is: " + (x / y));
         }
-        catch (Exception e)
+        catch (DivideByZeroException e)
+        {
+            Console.WriteLine(e.Message);
+        }
+        catch (FormatException e)
         {
             Console.WriteLine(e.Message);
         }
