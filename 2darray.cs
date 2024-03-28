@@ -5,8 +5,9 @@ class Program
     public static void Main(string[] args)
     {
         int[,] arr = {
-            {1, 2},
-            {3, 4}
+            {1,2,4},
+            {3, 4,54},
+            {5,6,45}
         };
 
         for (int i = 0; i < arr.GetLength(0); i++)
