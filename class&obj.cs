@@ -20,6 +20,7 @@ class Program
     public static void Main(string[] args)
     {
         Book book1 = new Book("John Wick", "Ikram", 400);
+        Book book2 = new Book("Laravel", "ammer", 90);
         book1.title = "yalmaz";
         Console.WriteLine(book1.title);
     }
