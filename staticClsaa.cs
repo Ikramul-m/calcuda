@@ -5,6 +5,7 @@ class Song
     public string title;
     public string artist;
     public int duration;
+    public static int songCount = 0;
 
     public Song(string aTitle, string aArtist, int aDuration)
     {
@@ -22,7 +23,7 @@ class Program
         Song kashmir = new Song("Kashmir", "Led Zeppelin", 150);
 
         Console.WriteLine(holiday.artist);
-        Console.WriteLine(kashmir.artist);
+        Console.WriteLine(kashmir.title);
     }
 }
 
