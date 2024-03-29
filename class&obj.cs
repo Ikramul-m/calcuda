@@ -23,6 +23,7 @@ class Program
         Book book2 = new Book("Laravel", "ammer", 90);
         book1.title = "yalmaz";
         Console.WriteLine(book1.title);
+        Console.WriteLine(book2.author);
     }
 }
 
