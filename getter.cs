@@ -20,7 +20,7 @@ class Program
     public static void Main(string[] args)
     {
         Movie movie1 = new Movie("Aniaml", "James", "PG");
-        Console.Write(movie1.rating);
+        // Console.Write(movie1.rating);
     }
 }
 
