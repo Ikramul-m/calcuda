@@ -21,7 +21,7 @@ class Program
         Song holiday = new Song("Holiday", "Green Day", 200);
         Song kashmir = new Song("Kashmir", "Led Zeppelin", 150);
 
-        Console.WriteLine(holiday.title);
+        Console.WriteLine(holiday.artist);
         Console.WriteLine(kashmir.title);
     }
 }
