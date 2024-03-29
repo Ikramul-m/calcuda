@@ -19,9 +19,9 @@ class Program
 {
     public static void Main(string[] args)
     {
-        Book book1 = new Book("John Wick", "Ikram", 400);
-        Console.WriteLine(book1.title);
+        Book book1 = new Book("Harry Potter", "J.K Rowling", 400);
+        Console.Write(book1.title + " " + book1.author + " " + book1.pages);
+
     }
 }
-
 
