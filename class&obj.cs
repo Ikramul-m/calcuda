@@ -24,6 +24,7 @@ class Program
         book1.title = "yalmaz";
         Console.WriteLine(book1.title);
         Console.WriteLine(book2.author);
+        Console.WriteLine(book2.title);
     }
 }
 
