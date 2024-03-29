@@ -10,7 +10,26 @@ class Movie
     {
         name = aName;
         director = aDirector;
-        rating = aRating;
+        Rating = aRating;
+    }
+
+    public string Rating
+    {
+        get
+        {
+            return rating;
+        }
+        set
+        {
+            if (value == "G" || value == "PG" || value == "PG-13" || value == "R")
+            {
+                rating = value;
+            }
+            else
+            {
+                rating = "NR";
+            }
+        }
     }
 
 }
@@ -20,7 +39,7 @@ class Program
     public static void Main(string[] args)
     {
         Movie movie1 = new Movie("Aniaml", "James", "PG");
-        // Console.Write(movie1.rating);
+        Console.Write(movie1.rating);
     }
 }
 
