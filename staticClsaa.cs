@@ -12,6 +12,7 @@ class Song
         title = aTitle;
         artist = aArtist;
         duration = aDuration;
+        songCount++;
     }
 }
 
@@ -20,10 +21,8 @@ class Program
     public static void Main(string[] args)
     {
         Song holiday = new Song("Holiday", "Green Day", 200);
+        Console.Write(Song.songCount);
         Song kashmir = new Song("Kashmir", "Led Zeppelin", 150);
-
-        Console.WriteLine(holiday.artist);
-        Console.WriteLine(kashmir.title);
         Console.Write(Song.songCount);
     }
 }
