@@ -25,10 +25,9 @@ class Program
     public static void Main(string[] args)
     {
         Song holiday = new Song("Holiday", "Green Day", 200);
-        Console.Write(Song.songCount);
         Song kashmir = new Song("Kashmir", "Led Zeppelin", 150);
-        Console.Write(kashmir.getSongCount());
-        Console.Write(Song.songCount);
+        Console.WriteLine(kashmir.getSongCount());
+  
     }
 }
 
