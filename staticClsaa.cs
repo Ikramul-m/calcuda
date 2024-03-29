@@ -22,7 +22,7 @@ class Program
         Song kashmir = new Song("Kashmir", "Led Zeppelin", 150);
 
         Console.WriteLine(holiday.artist);
-        Console.WriteLine(kashmir.title);
+        Console.WriteLine(kashmir.artist);
     }
 }
 
