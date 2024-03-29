@@ -24,6 +24,7 @@ class Program
 
         Console.WriteLine(holiday.artist);
         Console.WriteLine(kashmir.title);
+        Console.Write(Song.songCount);
     }
 }
 
