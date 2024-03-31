@@ -20,6 +20,10 @@ class Chef
 
 class ItalianChef : Chef
 {
+    public override void makeSpecialDish()
+    {
+        Console.WriteLine("CHef makes bbq ribs and shwarma.");
+    }
     public void makePasta()
     {
         Console.WriteLine("Make Pasta.");
@@ -35,6 +39,7 @@ class Program
         ItalianChef italian = new ItalianChef();
         italian.MakeChicken();
         italian.makePasta();
+        italian.makeSpecialDish();
     }
 }
 
