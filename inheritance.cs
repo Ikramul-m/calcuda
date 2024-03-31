@@ -20,7 +20,10 @@ class Chef
 
 class ItalianChef : Chef
 {
-
+    public void makePasta()
+    {
+        Console.WriteLine("Make Pasta.");
+    }
 }
 
 class Program
@@ -31,6 +34,7 @@ class Program
         chef.MakeChicken();
         ItalianChef italian = new ItalianChef();
         italian.MakeChicken();
+        italian.makePasta();
     }
 }
 
