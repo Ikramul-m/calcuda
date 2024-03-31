@@ -18,12 +18,19 @@ class Chef
     }
 }
 
+class ItalianChef : Chef
+{
+
+}
+
 class Program
 {
     public static void Main(string[] args)
     {
         Chef chef = new Chef();
         chef.MakeChicken();
+        ItalianChef italian = new ItalianChef();
+        italian.MakeChicken();
     }
 }
 
